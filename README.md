@@ -12,6 +12,6 @@ Practicing audit thinking and understanding callstack logic.
 
 ## /other:
       foundry.toml        // Foundry configuration file  
-      READMEPROJECT.md     // Project description  
+      READMEPROJECT.md     // Project description  (automatic)
       CALLSTACK.md        // Detailed explanation of the callstack  
      .gitignore          // Ignore list for unnecessary files  
