@@ -40,7 +40,7 @@ contract ReentrancyTest is Test {
 
         vm.startPrank(owner);
 
-        assertEq(address(owner).balance, 10); // Checking the hacker's balance before the attack, just for clarity
+        assertEq(address(owner).balance, 10 ether); // Checking the hacker's balance before the attack, just for clarity
         assertEq(address(bank).balance, 10 ether); //Checking the bank's balance after victim's deposit
 
         attacker.attack{value: 1 ether}(); // Launch the attack. The receive function with a repeated withdraw will be called itself
