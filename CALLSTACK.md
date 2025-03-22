@@ -41,8 +41,8 @@ Because the hacker's balance in the vulnerable contract's mapping is recorded as
 [0] owner::fallback{value: 11000000000000000000}() — The hacker’s fallback function was called, receiving 11 ETH.
 ```
 ```text
-VM::assertGt(20000000000000000000 [2e19], 10000000000000000000 [1e19]) [staticcall] — Here we see the attacker’s balance is now 20 ETH
- instead of 10 ETH, meaning the owner address took funds from Alice’s address, which had stored money in the contract.
+VM::assertGt(20000000000000000000 [2e19], 10000000000000000000 [1e19]) [staticcall] — Here we see the attacker’s
+ balance is now 20 ETH instead of 10 ETH, meaning the owner address took funds from Alice’s address, which had stored money in the contract.
  This is direct evidence of the contract being hacked.
 ```
 ```text
