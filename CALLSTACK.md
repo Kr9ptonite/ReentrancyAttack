@@ -1,2 +1,5 @@
-![Screenshot 2025-03-22 at 14 20 22](https://github.com/user-attachments/assets/118afd43-9c2a-4943-8021-af63399261a0)
-![Screenshot 2025-03-22 at 14 20 29](https://github.com/user-attachments/assets/085ae43e-02ca-4758-b534-9b0b187be8c0)
+The screenshots resolution is very low if viewed directly through github. I recommend opening the image in a new tab and reading the comments at the same time.
+
+We launched the test with the -vvvv flag, which provides full log details. In the square brackets before each action is executed, you can see how much gas was consumed.
+
+
