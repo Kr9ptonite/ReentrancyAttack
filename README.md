@@ -1,16 +1,16 @@
-ReentrancyAttack
+##ReentrancyAttack
 
 In this repository, I demonstrate a basic reentrancy vulnerability, how to exploit it, and how to test it using Foundry.
 Practicing audit thinking and understanding callstack logic.
 
-/src:  
+#/src:  
       Bank.sol           // Vulnerable smart contract (the "victim")  
       Attacker.sol       // Attack contract that exploits the vulnerability  
 
-/test:  
+#/test:  
       Reentrancy.t.sol   // Foundry test for demonstrating the exploit  
 
-/other:
+#/other:
 
    foundry.toml           // Foundry configuration file  
    READMEPROJECT.md              // Project description  
