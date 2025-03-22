@@ -5,10 +5,11 @@ In this repository I demonstrate a basic reentrancy vulnerability, how to exploi
 /src  
        Bank.sol            // Vulnerable contract  
        Attacker.sol        // Attack contract  
-       IBank.sol           // Interface (optional, if needed)  
+
 
 /test  
       Reentrancy.t.sol    // Foundry test for the attack  
+
 
 /other 
    foundry.toml            // Foundry config  
