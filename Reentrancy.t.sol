@@ -23,7 +23,6 @@ contract ReentrancyTest is Test {
 
         owner = makeAddr("owner"); //Create an address for the hacker
         vm.deal(owner, 10 ether); 
-        vm.stopPrank();
 
         vm.startPrank(owner); // Now all actions will be performed from the owner's address
 
