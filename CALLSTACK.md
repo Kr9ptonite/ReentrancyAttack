@@ -1,3 +1,4 @@
+## Let's start explaining callstack
 The screenshots resolution is very low if viewed directly through github. I recommend opening the image in a new tab and reading the comments at the same time.
 ![Screenshot 2025-03-22 at 20 51 46](https://github.com/user-attachments/assets/5112a46d-acde-439d-adb7-0efefa2046ea)
 ![Screenshot 2025-03-22 at 20 52 04](https://github.com/user-attachments/assets/2a2092c0-35c1-4d1d-bbe9-7706cf5a26e1)
@@ -5,7 +6,6 @@ The screenshots resolution is very low if viewed directly through github. I reco
 
 We launched the test with the -vvvv flag, which provides full log details. In the square brackets before each action is executed, you can see how much gas was consumed.
 
-## Let's start explaining callstack
 ```text
 [263479] ReentrancyTest::testReentrancy() – Launching our test.
 ```
