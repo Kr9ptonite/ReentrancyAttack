@@ -3,7 +3,7 @@ The screenshots resolution is very low if viewed directly through github. I reco
 We launched the test with the -vvvv flag, which provides full log details. In the square brackets before each action is executed, you can see how much gas was consumed.
 
 ## Let's start explaining callstack
-[263479] ReentrancyTest::testReentrancy() – Launching our test.
+```[263479] ReentrancyTest::testReentrancy() – Launching our test.```
 You may notice that with each reentrancy transaction, the amount of gas spent decreases.
 This happens because each subsequent function call becomes shorter and easier for the EVM.
 Each new call goes deeper into the call stack, where part of the data has already been processed, some variables are not re-created, and functions often work with values that are already prepared.
