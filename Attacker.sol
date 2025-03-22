@@ -17,7 +17,7 @@ contract Attacker {
 
        constructor(address _target) {
               target = IBank(_target); // Assign the deployed contract address to target
-
+              owner = msg.sender;
        }
 
        // REENTRANCY ATTACK FUNCTION
