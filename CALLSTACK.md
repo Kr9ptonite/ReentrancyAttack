@@ -1,4 +1,7 @@
 The screenshots resolution is very low if viewed directly through github. I recommend opening the image in a new tab and reading the comments at the same time.
+![Screenshot 2025-03-22 at 20 51 46](https://github.com/user-attachments/assets/5112a46d-acde-439d-adb7-0efefa2046ea)
+![Screenshot 2025-03-22 at 20 52 04](https://github.com/user-attachments/assets/2a2092c0-35c1-4d1d-bbe9-7706cf5a26e1)
+
 
 We launched the test with the -vvvv flag, which provides full log details. In the square brackets before each action is executed, you can see how much gas was consumed.
 
@@ -54,21 +57,3 @@ Suite result: ok. — The test run completed successfully.
 1 passed — One test was executed, and it passed.
 0 failed — No errors were found.
 0 skipped — No tests were skipped.
-
-
-
-
-
-
-
-       
-
-
-
-
-
-
-
-![Screenshot 2025-03-22 at 17 12 43](https://github.com/user-attachments/assets/b69f654a-a34e-4a74-b9f6-1bafb163a162)
-
-![Screenshot 2025-03-22 at 17 13 33](https://github.com/user-attachments/assets/c4feaf1d-67a5-4227-95dc-db248d3e95f2)
