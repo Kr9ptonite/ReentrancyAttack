@@ -27,11 +27,11 @@ After each completed function, you see [stop].
     ├─ [0] VM::assertEq(10000000000000000000 [1e19], 10000000000000000000 [1e19]) [staticcall]
        - Same balance check for the vulnerable bank. 
 
-
+```text
 [127058] Attacker::attack{value: 1000000000000000000}()
     │   ├─ [22537] VBank::deposit{value: 1000000000000000000}()
     │   │   └─ ← [Stop]
-
+```
 We are launching our attack. Inside it, deposit() is triggered first, followed by receive() with an embedded withdraw() call. This clearly demonstrates the reentrancy attack: the withdrawal is repeated 10 times. 
 
 Because the hacker's balance in the vulnerable contract's mapping is recorded as 1 ETH at a time, we can't withdraw more than 1 ETH in one go. However, since we can withdraw funds before the balance is reset to zero, we can keep withdrawing 1 ETH repeatedly until the vulnerable contract is fully drained.
