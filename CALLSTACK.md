@@ -9,14 +9,14 @@ This happens because each subsequent function call becomes shorter and easier fo
 Each new call goes deeper into the call stack, where part of the data has already been processed, some variables are not re-created, and functions often work with values that are already prepared.
 
 
-[22537] VM::startPrank(alice: [0x328809Bc894f92807417D2dAD6b7C998c1aFdac6]) – Starting actions as the victim.
+```[22537] VM::startPrank(alice: [0x328809Bc894f92807417D2dAD6b7C998c1aFdac6]) – Starting actions as the victim.```
 
 
 VBank::deposit{value: 10000000000000000000}() – The victim deposits 10 ETH (in wei) into the bank.
 After each completed function, you see [stop].
 
 
-VM::startPrank(owner: [0x7c8999dC9a822c1f0Df42023113EDB4FDd543266])
+```VM::startPrank(owner: [0x7c8999dC9a822c1f0Df42023113EDB4FDd543266])```
    └─ ← [Return]
 
 
