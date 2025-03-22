@@ -12,6 +12,7 @@ In this repository I demonstrate a basic reentrancy vulnerability, how to exploi
 
 
 /other: 
+
    foundry.toml            // Foundry config  
    README.md               // Project description  
    .gitignore              // Ignore config for unnecessary files  
