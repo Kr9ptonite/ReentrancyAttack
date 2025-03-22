@@ -11,6 +11,7 @@ Practicing audit thinking and understanding callstack logic.
       Reentrancy.t.sol   // Foundry test for demonstrating the exploit  
 
 ## /other:
-      foundry.toml           // Foundry configuration file  
-      READMEPROJECT.md       // Project description  
-     .gitignore             // Ignore list for unnecessary files  
+      foundry.toml        // Foundry configuration file  
+      READMEPROJECT.md     // Project description  
+      CALLSTACK.md        // Detailed explanation of the callstack  
+     .gitignore          // Ignore list for unnecessary files  
